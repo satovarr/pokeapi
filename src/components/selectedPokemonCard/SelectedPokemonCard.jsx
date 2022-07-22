@@ -1,5 +1,5 @@
 import "./selectedPokemonCard.css";
-import blackIcon from "./BLANK_ICON.png";
+import blackIcon from "../files/BLANK_ICON.png";
 
 export default function SelectedPokemonCard({ selectedPokemon, capitalize }) {
 

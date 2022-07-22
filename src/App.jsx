@@ -1,7 +1,7 @@
 import "./App.css";
 import { useEffect, useState } from "react";
-import Pagination from "./components/Pagination";
-import SelectPage from "./components/SelectPage";
+import Pagination from "./components/pagination/Pagination";
+import SelectPage from "./components/selectPage/SelectPage";
 
 function App() {
   const [currentPage, setCurrentPage] = useState(1);

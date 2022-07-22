@@ -1,8 +1,8 @@
 import "./pagination.css";
-import searchIcon from "./searchIcon.png";
+import searchIcon from "../files/searchIcon.png";
 import { useState, useEffect } from "react";
-import Page from "./Page";
-import SelectedPokemonCard from "./SelectedPokemonCard";
+import Page from "../page/Page";
+import SelectedPokemonCard from "../selectedPokemonCard/SelectedPokemonCard";
 
 const Pagination = ({ currentPage, setCurrentPage, pokemonRaw }) => {
   const [search, setSearch] = useState("");
@@ -28,7 +28,7 @@ const Pagination = ({ currentPage, setCurrentPage, pokemonRaw }) => {
   const capitalize = (str) => str.charAt(0).toUpperCase() + str.slice(1);
 
   const handleInputChange = (e) => {
-    setSearch(e.target.value);
+    setSearch(e.target.value.toLowerCase());
   };
 
   return (

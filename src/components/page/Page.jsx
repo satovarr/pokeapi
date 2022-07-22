@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./page.css";
-import PokemonCard from "./PokemonCard";
+import PokemonCard from "../pokemonCard/PokemonCard";
 
 export default function Page({ currentPage, pokemonSearch, setSelectedPokemon, capitalize }) {
   const [urls, setUrls] = useState([]);

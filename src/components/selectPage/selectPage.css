@@ -26,6 +26,10 @@
 
 }
 
+.button--disabled {
+  background-color: #94b5ca;
+}
+
 .button__label{
   margin: 0 10px;
 }

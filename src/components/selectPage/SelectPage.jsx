@@ -15,7 +15,10 @@ export default function SelectPage({ currentPage, setCurrentPage }) {
     <>
       <div className="app__leftButton leftButton">
         <button
-          className="leftButton__button button button--left"
+          className={
+            "leftButton__button button button--left "
+            +(currentPage === 1 ? "button--disabled" : " ")
+          }
           onClick={hadleButton}
           name="back"
         >

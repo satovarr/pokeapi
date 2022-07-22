@@ -1,5 +1,5 @@
 import "./pokemonCard.css";
-import defaultPokemonImage from "./default_pokemon.png";
+import defaultPokemonImage from "../files/default_pokemon.png";
 import { useEffect, useState } from "react";
 
 export default function PokemonCard({ urls, index, setSelectedPokemon, capitalize }) {
