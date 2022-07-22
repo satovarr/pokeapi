@@ -1,0 +1,8 @@
+.app_leftBox {
+  display: grid;
+  gap: 6%;
+  grid-template: 
+  "card--0  card--1"  47%
+  "card--2  card--3"  47% /
+  47%     47%;
+}
